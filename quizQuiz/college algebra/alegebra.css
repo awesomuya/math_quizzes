@@ -1,0 +1,66 @@
+.container{
+  display: grid;
+ 
+}
+
+.container2{
+  margin-left: 55px;
+}
+
+.container3{
+  margin-left: 40px;
+}
+
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the accordion container */
+.accordion {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px auto;
+  position: absolute;
+  left: 45px;
+}
+
+/* Style for each accordion item */
+.item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Style for the accordion button */
+.accordion-button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Style for the content within each accordion item */
+.content {
+  display: none;
+  padding: 10px;
+}
+
+/* Show content when accordion button is active */
+.item.active .content {
+  display: block;
+}
+
+/* Style for active content */
+.content.active {
+  display: block;
+}
+
+ul{
+  list-style: none;
+}
+

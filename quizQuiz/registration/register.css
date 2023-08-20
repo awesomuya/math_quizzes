@@ -1,0 +1,11 @@
+.form2 {
+  position: absolute;
+  right: 45px;
+  top:100px
+}
+
+.form1{
+  position: absolute;
+  left: 45px;
+  top: 100px;
+}
